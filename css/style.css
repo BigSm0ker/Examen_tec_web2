@@ -1,0 +1,285 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#logo {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(122, 122, 130);
+}
+#logo img {
+  width: 100px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: rgb(122, 122, 130);
+}
+.menu a {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+#bienvenida {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Times New Roman", serif;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#bienvenida h1 {
+  color: rgb(122, 122, 130);
+  margin-bottom: 20px;
+}
+#bienvenida p {
+  color: rgb(8, 8, 8);
+  max-width: 600px;
+}
+#bienvenida #btnAction {
+  padding: 10px 20px;
+  background-color: rgb(122, 122, 130);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#bienvenida #btnAction:hover {
+  background-color: rgb(100, 100, 110);
+}
+
+#servicios {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Times New Roman", serif;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#servicios h2 {
+  width: 100%;
+  color: rgb(122, 122, 130);
+  margin-bottom: 20px;
+}
+#servicios .servicios {
+  background-color: rgb(18, 227, 196);
+  border: 1px solid rgb(122, 122, 130);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(15, 77, 11, 0.88);
+}
+#servicios img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#interaccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(15, 77, 11, 0.88);
+  margin: 50px;
+}
+#interaccion h2 {
+  color: rgb(122, 122, 130);
+  margin-bottom: 20px;
+}
+#interaccion p {
+  color: rgb(8, 8, 8);
+  max-width: 600px;
+}
+
+#contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: rgb(108, 193, 242);
+}
+#contacto input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(122, 122, 130);
+  border-radius: 5px;
+}
+#contacto h2 {
+  color: rgb(122, 122, 130);
+  margin-bottom: 20px;
+}
+#contacto #submit {
+  padding: 10px 20px;
+  background-color: rgb(122, 122, 130);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#contacto #submit:hover {
+  background-color: rgb(100, 100, 110);
+}
+
+footer {
+  background-color: rgb(122, 122, 130);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 0;
+  font-family: "Times New Roman", serif;
+  margin: 20px 0;
+}
+
+@media (max-width: 1024px) {
+  #logo {
+    justify-content: center;
+  }
+  #logo img {
+    width: 80px;
+  }
+  .menu {
+    gap: 16px;
+    padding: 12px;
+    flex-wrap: wrap;
+  }
+  #bienvenida,
+  #servicios,
+  #interaccion,
+  #contacto {
+    padding: 24px;
+  }
+  #bienvenida h1 {
+    font-size: 2rem;
+  }
+  #bienvenida p {
+    max-width: 500px;
+  }
+  #servicios {
+    justify-content: center;
+    gap: 20px;
+  }
+  #servicios .servicios {
+    width: 45%;
+  }
+  #interaccion {
+    text-align: center;
+  }
+  #interaccion p {
+    max-width: 500px;
+  }
+  #contacto {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  #logo {
+    justify-content: center;
+    padding: 10px;
+  }
+  #logo img {
+    width: 70px;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0;
+  }
+  .menu li {
+    width: 100%;
+    text-align: center;
+  }
+  .menu a {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+  }
+  #bienvenida,
+  #servicios,
+  #interaccion,
+  #contacto {
+    padding: 16px;
+    margin: 12px;
+  }
+  #bienvenida h1 {
+    font-size: 1.6rem;
+  }
+  #bienvenida p {
+    max-width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  #bienvenida #btnAction {
+    width: 100%;
+    max-width: 280px;
+  }
+  #servicios {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  #servicios h2 {
+    text-align: center;
+  }
+  #servicios .servicios {
+    width: 100%;
+    max-width: 320px;
+  }
+  #servicios img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  #interaccion {
+    text-align: center;
+  }
+  #interaccion h2 {
+    font-size: 1.4rem;
+  }
+  #interaccion p {
+    max-width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  #contacto {
+    width: 100%;
+    margin: 12px auto;
+  }
+  #contacto h2 {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  #contacto input,
+  #contacto textarea,
+  #contacto select {
+    width: 100%;
+    font-size: 1rem;
+  }
+  #contacto #submit {
+    width: 100%;
+  }
+  footer {
+    font-size: 0.95rem;
+    padding: 12px;
+    margin: 12px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
