@@ -7,7 +7,7 @@
 #logo {
   display: flex;
   justify-content: flex-start;
-  background-color: rgb(122, 122, 130);
+  background-color: rgb(18, 74, 139);
 }
 #logo img {
   width: 100px;
@@ -18,12 +18,12 @@
   list-style: none;
   justify-content: space-around;
   flex-direction: row;
-  background-color: rgb(122, 122, 130);
+  background-color: rgb(18, 74, 139);
 }
 .menu a {
   color: rgb(8, 8, 8);
   text-decoration: none;
-  font-family: "Arial", sans-serif;
+  font-family: "Segoe UI", sans-serif;
   font-size: 16px;
 }
 
@@ -31,15 +31,15 @@
   display: flex;
   width: 80%;
   margin: 0 auto;
-  font-family: "Times New Roman", serif;
+  font-family: "Cambria", serif;
   font-size: 16px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(248, 251, 255);
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 #bienvenida h1 {
-  color: rgb(122, 122, 130);
+  color: rgb(18, 74, 139);
   margin-bottom: 20px;
 }
 #bienvenida p {
@@ -48,8 +48,8 @@
 }
 #bienvenida #btnAction {
   padding: 10px 20px;
-  background-color: rgb(122, 122, 130);
-  color: rgb(255, 255, 255);
+  background-color: rgb(18, 74, 139);
+  color: rgb(248, 251, 255);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -62,20 +62,20 @@
   display: flex;
   width: 80%;
   margin: 0 auto;
-  font-family: "Times New Roman", serif;
+  font-family: "Cambria", serif;
   font-size: 16px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(248, 251, 255);
   flex-wrap: wrap;
   justify-content: space-between;
 }
 #servicios h2 {
   width: 100%;
-  color: rgb(122, 122, 130);
+  color: rgb(18, 74, 139);
   margin-bottom: 20px;
 }
 #servicios .servicios {
-  background-color: rgb(18, 227, 196);
-  border: 1px solid rgb(122, 122, 130);
+  background-color: rgb(224, 238, 255);
+  border: 1px solid rgb(18, 74, 139);
   border-radius: 5px;
   padding: 20px;
   margin: 10px;
@@ -92,14 +92,14 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(248, 251, 255);
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(15, 77, 11, 0.88);
   margin: 50px;
 }
 #interaccion h2 {
-  color: rgb(122, 122, 130);
+  color: rgb(18, 74, 139);
   margin-bottom: 20px;
 }
 #interaccion p {
@@ -117,17 +117,17 @@
 #contacto input {
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid rgb(122, 122, 130);
+  border: 1px solid rgb(18, 74, 139);
   border-radius: 5px;
 }
 #contacto h2 {
-  color: rgb(122, 122, 130);
+  color: rgb(18, 74, 139);
   margin-bottom: 20px;
 }
 #contacto #submit {
   padding: 10px 20px;
-  background-color: rgb(122, 122, 130);
-  color: rgb(255, 255, 255);
+  background-color: rgb(18, 74, 139);
+  color: rgb(248, 251, 255);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -137,11 +137,11 @@
 }
 
 footer {
-  background-color: rgb(122, 122, 130);
-  color: rgb(255, 255, 255);
+  background-color: rgb(18, 74, 139);
+  color: rgb(248, 251, 255);
   text-align: center;
   padding: 10px 0;
-  font-family: "Times New Roman", serif;
+  font-family: "Cambria", serif;
   margin: 20px 0;
 }
 
